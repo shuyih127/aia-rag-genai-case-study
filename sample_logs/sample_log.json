@@ -1,0 +1,26 @@
+{
+  "request_id": "req_demo_123",
+  "session_id": "sess_demo_456",
+  "timestamp": "2026-09-26T21:11:39.678028+00:00",
+  "language": null,
+  "query_hash": "redacted_hash",
+  "rewritten_query": "How many working days before annual leave must I submit a request?",
+  "retrieved_source_ids": [
+    "employee_handbook_en.txt_page_1_chunk_01_49971a60",
+    "architecture_document.txt_page_1_chunk_01_8d159ab2",
+    "compliance_guide_en.txt_page_1_chunk_01_462e7f41",
+    "compliance_guide_zh.txt_page_1_chunk_01_724956e2",
+    "employee_handbook_zh.txt_page_1_chunk_01_ba3e8f97"
+  ],
+  "similarity_scores": [1.0, 0.2, 0.0, 0.0, 0.0],
+  "reranker_enabled": false,
+  "input_tokens": 243,
+  "output_tokens": 132,
+  "retrieval_ms": 1.76,
+  "total_ms": 3.34,
+  "cost_usd": 0.002709,
+  "citations": ["S1", "S2"],
+  "refusal": false,
+  "pii_redacted": true,
+  "error": null
+}

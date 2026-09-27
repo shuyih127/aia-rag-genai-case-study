@@ -1,0 +1,5 @@
+Compliance Guide
+
+Customer and employee personal data must be accessed only for an approved business purpose. Access must follow least privilege. Sensitive data must not be copied into chat messages, logs, or sample datasets. Suspected data exposure must be reported to the Security team within one business day.
+
+If a knowledge-base question cannot be answered from an approved source, the assistant must explain that the information is unavailable rather than guessing.

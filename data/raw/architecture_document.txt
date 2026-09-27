@@ -1,0 +1,3 @@
+Architecture Document
+
+The reference architecture separates ingestion, retrieval, generation, and presentation. Ingestion preserves source metadata. Retrieval combines keyword and vector search. Generation receives only retrieved context and conversation memory. The application validates citations before returning an answer. The service must be designed so that the embedding model, reranker, and generation provider can be replaced independently.

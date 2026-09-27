@@ -1,0 +1,17 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+streamlit>=1.40
+python-dotenv>=1.0
+pydantic>=2.8
+httpx>=0.27
+anthropic>=0.40
+numpy>=1.26
+scikit-learn>=1.5
+pypdf>=5.0
+pymupdf>=1.24
+reportlab>=4.2
+pytesseract>=0.3.13
+pytest>=8.0
+# Optional, enabled with EMBEDDING_ENABLED=true:
+sentence-transformers>=3.0
+# Optional OCR command-line dependency: tesseract

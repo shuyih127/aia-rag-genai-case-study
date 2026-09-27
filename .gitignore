@@ -1,0 +1,9 @@
+.venv/
+.env
+__pycache__/
+.pytest_cache/
+*.pyc
+logs/
+evals/results/*.json
+data/processed/
+data/raw/scanned_policy.pdf

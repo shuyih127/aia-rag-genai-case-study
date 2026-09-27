@@ -1,0 +1,3 @@
+Technical Specifications
+
+The internal QA service exposes POST /chat with a session_id and question. It returns answer, citations, refused, request_id, and metadata. The target is p95 end-to-end latency below ten seconds. Retrieval should return the highest scoring evidence first, and the service should record retrieval and generation latency separately.
